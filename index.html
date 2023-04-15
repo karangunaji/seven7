@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Mentor </title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- fonts cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="Images/download.jpg">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/10b2548da5.js" crossorigin="anonymous"></script>
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- swiper  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- mouse follwer -->
+    <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Images/download.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Trending Course
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Hr Training</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Personality Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Paythone Training</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">Django Training</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">FullStack Development</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">Software Testing</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Company Blog</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Current Opening</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Hr Services</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            It Courses
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">SALEFORCES</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">NETWORKING</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">CYBER SECURITY</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">SOFTWARE DEVELOPMENT</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">FULL STACK DEVELOPMENT</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">DATA ANALYTICS</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">DIGITAL MARKETING TRAINING</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            SAP COURSES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Hr Training</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Personality Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Paythone Training</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">Django Training</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">FullStack Development</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">Software Testing</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            HR COURSES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Hr Training</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Hr Analytics</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Hr Audit</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">HRBP Training</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Business Analyst</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">SAP HR Training</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">certification in HR training</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            FASHION & INTERIOR DESIGN
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Fashion Designinig</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Nail Art</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Interior Designinig</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Auto CAD</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ungraphics</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Revit Architecture</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Revit MEP</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">3Ds Max</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Google Sketchup</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            LANGUAGE
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Spoken English Classes in Pune</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Personality Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">German Language</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">French Language</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Japanese Language</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">IELTS Coaching in Pune</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Voice and Accent (VNA)</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Train the trainer (TTT)</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">OET</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">GRE</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Online Training
+                        </a>
+
+                    </li>
+
+
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- first page  -->
+    <section class="first_page">
+        <div class="overlay"></div>
+        <div class="first_area">
+            <div class="search">
+
+                <input type="search" placeholder="Search for courses here...."> <i class="fa-solid fa-magnifying-glass">
+                </i>
+            </div>
+            <h1 class="heading">SevenMentor & Training Pvt. Ltd. </h1>
+            <div class="line"></div>
+
+            <p>A Step ahead in education</p>
+            <div class="contact ">
+                <a href="tel:8530125390">
+                    <p>Contact Us</p>
+                </a>
+            </div>
+        </div>
+        <div class="first_page_con">
+            <div>
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                <h4>Networking Courses</h4>
+                <p>1234567890</p>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                <h4>Software Courses</h4>
+                <p>1234567890</p>
+
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                <h4>Hr Training Courses</h4>
+                <p>1234567890</p>
+
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                <h4>Interior & T. Courses</h4>
+                <p>1234567890</p>
+
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                <h4>Python-data Courses</h4>
+                <p>1234567890</p>
+
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                <h4>Language Courses</h4>
+                <p>1234567890</p>
+
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                <h4>Sap Courses</h4>
+                <p>1234567890</p>
+
+            </div>
+        </div>
+        <div class="online">
+            <a href="https://web.whatsapp.com/" target="_blank"> <img src="images/37-br-removebg-preview.png" alt=""></a>
+
+        </div>
+    </section>
+
+    <!-- second page  -->
+
+    <section class="second_page">
+        <h2>Welcome To SevenMentor</h2>
+        <div class="line2">
+            <div></div>
+        </div>
+        <div class="second_container">
+            <div class="left">
+                <p> <span>"SevenMentor"</span> has improvised a tendency to cope with all International Standards within
+                    their courses,
+                    by engaging both ends of the industry for students, professionals, and individuals to corporate
+                    clients.
+                    The organization conjointly gives chance within their educational programs to meet the needs with
+                    projected desires of quick developing networking trade. “SevenMentor” education techniques allow
+                    honing
+                    the abilities of the Networking experts from Industries which allow them to be equipped with the
+                    updated
+                    technology and standards of their operating environment. The group is a center for technical
+                    excellence
+                    with the kingdom of the art lab centers and a properly exquisite curriculum which gives them
+                    exposure in
+                    advance and enables them to be specific inside the certification enterprise.
+                    <br><br>
+                    The organization takes pride in having instructors who are engrossed beyond Fifteen Years in
+                    enjoying as
+                    a trainer for Various Verticles of Educationon. With that, they offer the foremost Classroom And
+                    Online
+                    training As per trade standard. And assert as one of the fastest-growing network training
+                    institutions
+                    in the world and has a monopoly in the region. The Institutes strong placement cell has magnified
+                    its
+                    network amidst corporates over the years and is leveraged to realize nearly 100% placements of its
+                    students. <br><br>
+                </p>
+                <button class="btn">Read More</button>
+            </div>
+            <div class="right">
+                <form action="https://formspree.io/f/mgebwljq" method="POST">
+                    <h4>Request Call Back Class <br> Room & Online Training Quotation</h4>
+                    <label>Your Name*</label> <br>
+                    <input type="text"><br>
+                    <label>Your Email*</label><br>
+                    <input type="email"><br>
+                    <label>Contact no*</label><br>
+                    <input type="number"><br><br>
+                    <select name="Choose Branch" id="">
+                        <option value="">Please choose an option</option>
+                        <option value="Online Training">Online Training</option>
+                        <option value="Class room shivaji nagar ,pune">Class room shivaji nagar ,pune</option>
+                        <option value="Class room chinchawad ,pune">Class room chinchawad ,pune</option>
+                    </select><br><br>
+                    <input type="text" placeholder="Your Course Name"><br><br>
+                    <button class="btn1">Send</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- third page  -->
+    <section class="third_page">
+        <div class="overlay2"></div>
+
+        <h2>Behind Every Successful Career</h2>
+        <div class="line2 line3">
+            <div></div>
+        </div>
+        <!-- <div class="line2"><div></div></div> -->
+        <h4> Sevenmentor A Renowned Brand For Quality Education And In- House Job Placement Services Since, Past
+            Decades.
+        </h4>
+        <div class="thir_container">
+            <div data-aos="flip-left">
+                <p>52+</p>
+                <!-- <div class="hline" ></div> -->
+                <span></span>
+                <h5>Classromm</h5>
+            </div>
+            <div data-aos="zoom-in-down">
+                <p>72000+</p>
+                <!-- <div class="hline"></div> -->
+                <h5>Successful Career made</h5>
+            </div>
+            <div data-aos="zoom-in-down">
+                <p>75+</p>
+                <!-- <div class="hline"></div> -->
+                <h5>Total Mentors</h5>
+            </div>
+            <div data-aos="flip-left">
+                <p>200+</p>
+                <!-- <div class="hline"></div> -->
+                <h5>Online/Offline Courses</h5>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <!-- fourth Page  -->
+    <section class="fourth_Page">
+        <h2>Why to Choose Us?</h2>
+        <p>SevenMentor Offers Premier Benefits For The Students</p>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" data-aos="zoom-in-down">
+                    <img src="images/fee.jpg" alt="">
+                    <h2>Lowest Courses Fess</h2>
+                    <p>We Challage for the lowest courses fees <br>
+                        gurrantee for each and every courses</p>
+
+                </div>
+                <div class="swiper-slide" data-aos="zoom-in-down">
+                    <img src="images/urban.jpg" alt="">
+                    <h2>In-House Company</h2>
+                    <p>The Student will get direct benefits of <br>
+                        on-going USA projects</p>
+                </div>
+                <div class="swiper-slide" data-aos="zoom-in-down">
+                    <img src="images/fee.jpg" alt="">
+                    <h2>Free Wi-Fi</h2>
+                    <p>We Challage for the lowest courses fees <br>
+                        gurrantee for each and every courses</p>
+                </div>
+                <div class="swiper-slide" data-aos="zoom-in-down">
+                    <img src="images/global-economy.jpg" alt="">
+                    <h2>Global certification</h2>
+                    <p>We Challage for the lowest courses fees <br>
+                        gurrantee for each and every courses</p>
+                </div>
+                <div class="swiper-slide" data-aos="zoom-in-down">
+                    <img src="images/teacher (1).jpg" alt="">
+                    <h2>interview Preparation</h2>
+                    <p>We Challage for the lowest courses fees <br>
+                        gurrantee for each and every courses</p>
+                </div>
+                <div class="swiper-slide" data-aos="zoom-in-down">
+                    <img src="images/placement.jpg" alt="">
+                    <h2>100% Job gurrantee</h2>
+                    <p>We Challage for the lowest courses fees <br>
+                        gurrantee for each and every courses</p>
+                </div>
+                <div class="swiper-slide" data-aos="zoom-in-down">
+                    <img src="images/teacher.jpg" alt="">
+                    <h2>Digital Classroom</h2>
+                    <p>We Challage for the lowest courses fees <br>
+                        gurrantee for each and every courses</p>
+                </div>
+                <div class="swiper-slide" data-aos="zoom-in-down">
+                    <img src="images/imagewhy1.jpg" alt="">
+                    <h2>Accommondation & Stay</h2>
+                    <p>We Challage for the lowest courses fees <br>
+                        gurrantee for each and every courses</p>
+                </div>
+                <div class="swiper-slide" data-aos="zoom-in-down">
+                    <img src="images/research.jpg" alt="">
+                    <h2>24 X 7 Lab Facilities</h2>
+                    <p>We Challage for the lowest courses fees <br>
+                        gurrantee for each and every courses</p>
+                </div>
+                <div class="swiper-slide" data-aos="zoom-in-down">
+                    <img src="images/teacher.jpg" alt="">
+                    <h2>Lowest Courses Fess</h2>
+                    <p>We Challage for the lowest courses fees <br>
+                        gurrantee for each and every courses</p>
+                </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+
+    </section>
+
+
+    <!-- fifth page  -->
+    <!-- <section class="fifth_page">
+        <h2>Popular Courses</h2>
+    </section> -->
+
+
+
+    <section class="footer_top">
+        <div class="overlay4"></div>
+        <h2>Request For Call Back </h2>
+        <p>Class Room & Online Training Quotation | Free Career Counselling</p>
+
+        <form action="https://formspree.io/f/mgebwljq" method="POST">
+            <label>Your Name*</label>
+            <input type="text">
+            <label>Your Email*</label>
+            <input type="email">
+            <label>Contact no*</label>
+            <input type="number">
+            <!-- <select name="Choose Branch" id="">
+                <option value="">Please choose an option</option>
+                <option value="Online Training">Online Training</option>
+                <option value="Class room shivaji nagar ,pune">Class room shivaji nagar ,pune</option>
+                <option value="Class room chinchawad ,pune">Class room chinchawad ,pune</option>
+            </select> -->
+            <input type="text" placeholder="Your Course Name">
+            <button class="btn1 btn2">Send</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <div class="Footer_heading">
+            <h2>For More, Follow Us On Our Social Sites:</h2>
+            <div class="share">
+                <a href="https://www.facebook.com/home.php" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+        </div>
+        <div class="Footer_container">
+            <div>
+                <h4>About SevenMentor</h4>
+                <br>
+                <ul>
+                    <li>Enterprises Network Solution</li>
+                    <li>HR Recruitment IT & Non-IT</li>
+                    <li>Network Consulting Services</li>
+                    <li>Corporate Training In Pune</li>
+                    <li>Terms of Use</li>
+                    <li>training</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Networking Courses</h4>
+                <br>
+                <ul>
+                    <li>CCNA Security</li>
+                    <li>CCNP R&S</li>
+                    <li>MCSA</li>
+                    <li>SCCM</li>
+                    <li>Linux</li>
+                    <li>VMware</li>
+                    <li>Hadoop Developer</li>
+                    <li>Amazon Web Services</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Software Courses</h4>
+                <br>
+                <ul>
+                    <li>java</li>
+                    <li>Python</li>
+                    <li>AngularJS</li>
+                    <li>Mean Stack</li>
+                    <li>C and C++</li>
+                    <li>PHP Course</li>
+                    <li>Android</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Other Courses</h4>
+                <br>
+                <ul>
+                    <li>AutoCAD Civil</li>
+                    <li>Digital Marketing</li>
+                    <li>Hadoop Administration</li>
+                    <li>Big Data Hadoop</li>
+                    <li>Data Analytics</li>
+                    <li>Spark Development</li>
+                    <li>R Programming</li>
+                    <li>Artificial Intelligence</li>
+
+                </ul>
+            </div>
+            <div>
+                <h4>Contact Details</h4>
+                <br>
+                <p>Shivaji Nagar Head Branch 21 & 25/A Wing, Shreenath Plaza,1st floor, Dnyaneshwar Paduka Chowk,
+                    1184/4 F.C Road,Shivaji Nagar, Pune, Maharashtra 411005</p> <br>
+                <p>Pimpri Chinchwad Place Branch Office number 38 wing A and B. 3rd Floor, KUNAL PLAZA off Mumbai
+                    Pune HighwayChinchwad, Maharastra 411019</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="sub_footer">
+        <p>COPYRIGHT © 2022 SevenMentor Pvt. Ltd | All Rights Reserved. <br>Designed And Developed By Rathod karan </p>
+    </div>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- AOS  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 600
+        });
+    </script>
+
+    <!-- swiper  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custome js file  -->
+    <script src="app.js"></script>
+
+
+    <!-- mouse follwer -->
+    <script>
+        const cursor = new MouseFollower({
+            container: document.body,
+            speed: 0.3
+        });
+    </script>
+
+</body>
+
+</html>
